@@ -1,11 +1,19 @@
 {
-  "name": "ll",
+  "name": "Full_Stack_osa3_palautus",
   "version": "1.0.0",
   "description": "FS osa3",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Antti Kantola",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
